@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Performance & Productivity Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #34495e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .section {
+            padding: 30px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+
+        .team {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .member {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+        }
+
+        .graph {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .graph img {
+            max-width: 90%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Employee Performance & Productivity Analysis</h1>
+        <p>Using Workforce Data to Drive Business Insights</p>
+    </header>
+
+    <div class="section">
+        <h2>Project Summary</h2>
+        <p>This dashboard presents key trends and analysis on employee productivity using descriptive and exploratory
+            data analytics. Insights are drawn from HR datasets covering demographics, experience, company size, and
+            training hours.</p>
+    </div>
+
+    <div class="section">
+        <h2>Team Members</h2>
+        <div class="team">
+            <div class="member">
+                <h3>A. Andro Jerslin Jebina</h3>
+                <p>Data Analyst</p>
+            </div>
+            <div class="member">
+                <h3>J.Janani</h3>
+                <p>Visualization Expert</p>
+            </div>
+            <div class="member">
+                <h3>K. Prithika</h3>
+                <p>Report & Coordination</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Visual Insights</h2>
+
+        <div class="graph">
+            <h3>1. Gender Distribution</h3>
+            <h4>Description: Shows the percentage of enrollees by gender.
+               <br> Purpose: Understand gender representation and diversity in the dataset.</h4>
+            <img src="output-8 (1).png" alt="Gender Graph">
+        </div>
+
+        <div class="graph">
+            <h3>2. Avg Training Hours by Education Level</h3>
+            <h4>Description: Displays average training hours across different education levels.
+               <br> Purpose: Identify if higher education levels receive more training.</h4>
+            <img src="output-8 (2).png" alt="Education Graph">
+        </div>
+
+        <div class="graph">
+            <h3>3.Relevant Experience</h3>
+            <h4>Description: Compares the count of candidates with and without relevant experience.
+               <br> Purpose: Assess how experienced the workforce is in their field.</h4>
+            <img src="output-8 (3).png" alt="Scatter Plot">
+        </div>
+
+        <div class="graph">
+            <h3>4.City Dev. Index by Major Discipline</h3>
+            <h4>Description: Visualizes the development level of cities for each discipline.
+               <br> Purpose: Explore how educational backgrounds relate to urban development.</h4>
+            <img src="output-8 (4).png" alt="Scatter Plot">
+        </div>
+
+        <div class="graph">
+            <h3>5. Experience Distribution</h3>
+            <h4>Description: Shows how experience is distributed across all enrollees.
+               <br> Purpose: Identify dominant experience levels in the workforce.</h4>
+            <img src="output-8 (5).png" alt="Scatter Plot">
+        </div>
+
+        <div class="graph">
+            <h3>6. Correlation Matrix</h3>
+            <h4>Description: Displays correlations between city index, experience, and training hours.
+               <br> Purpose: Reveal potential relationships between numeric performance factors.</h4>
+            <img src="output-8 (6).png" alt="Scatter Plot">
+        </div>
+
+        <div class="graph">
+            <h3>7.Avg City Index by Company Size</h3>
+            <h4>Description: Shows average city development index across company sizes.
+               <br> Purpose: Understand whether larger companies are based in more developed areas.</h4>
+            <img src="output-8 (7).png" alt="Scatter Plot">
+        </div>
+
+        <div class="graph">
+            <h3>8. Time Since Last New Job</h3>
+            <h4>Description: Plots how long it has been since each employee changed jobs.
+               <br> Purpose: Analyze job-switching patterns and employee stability.
+
+            </h4>
+            <img src="output-8 (8).png" alt="Scatter Plot">
+        </div>
+
+        <!-- Add more graphs here -->
+
+    </div>
+
+    <div class="section">
+        <h2>Key Takeaways</h2>
+        <ul>
+            <li>Employees with prior experience show higher productivity trends.</li>
+            <li>Training hours positively influence job readiness and retention.</li>
+            <li>Small company employees tend to have more frequent job changes.</li>
+        </ul>
+    </div>
+<hr>
+    <footer style="text-align: center;">
+        &copy; 2025 Data Analysis Project by Team-3 has copyright
+    </footer>
+    <hr>
+</body>
+
+</html>
